@@ -11,9 +11,13 @@ import android.widget.TextView;
 
 public class DisplayMessageActivity extends Activity {
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //textchanged
         Intent intent = getIntent();
         String message = intent.getStringExtra(HelloWorldActivity.EXTRA_MESSAGE);
 
