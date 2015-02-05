@@ -1,7 +1,7 @@
 package com.example.administrator.helloworldapp;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 
-public class HelloWorldActivity extends ActionBarActivity {
+public class HelloWorldActivity extends Activity {
 
     public final static String EXTRA_MESSAGE = "com.example.administrator.helloworldapp.MESSAGE";
 
